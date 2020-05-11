@@ -17,10 +17,10 @@ def loop_message_n_times(message, integer)
   end 
 end 
 
-def output_array(quote, array)
+def output_array(array)
   count = 0 
-  while count < 0 array.length do
-    puts array[count]
+  while count < array.length do
+    array[count].to_s
     count += 1 
   end 
 end
